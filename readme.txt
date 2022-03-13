@@ -1,0 +1,2 @@
+This script access the Concur API, downloads the most recent expense report and line items for all active users, then downloads the receipts associated with each expense line item.
+The script then formats the downloaded image and uploads it to an Amazon S3 bucket so they may be accessed even after timeout.
